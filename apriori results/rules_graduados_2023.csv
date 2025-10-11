@@ -1,0 +1,445 @@
+"rules","support","confidence","coverage","lift","count"
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26),Sector=Privado} => {Grupos_Quinquenales=20 a 24}",0.0645332177514508,0.871828236824984,0.0740205639432686,4.33606644875506,2680
+"{Nivel_Educativo=Técnico,Sexo=Mujer,Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.0742372799730309,0.869920993227991,0.0853379566086349,4.326580709912,3083
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.104481205904308,0.868147258903561,0.120349635194683,4.31775898383305,4339
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=20 a 24}",0.0567073611211443,0.860745614035088,0.0658816730477498,4.28094665931295,2355
+"{Sexo=Mujer,Edad=[-7.97e+03,26),Sector=Privado,Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=20 a 24}",0.0576223843579186,0.776192020759001,0.0742372799730309,3.86041657845516,2393
+"{Sexo=Mujer,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=20 a 24}",0.0790291121866647,0.769519343493552,0.102699318548484,3.82722979831661,3282
+"{Edad=[-7.97e+03,26),Sector=Privado,Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=20 a 24}",0.0840376604300609,0.763008307826847,0.110139902236991,3.79484694799295,3490
+"{Sexo=Mujer,Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.138024031399745,0.757199471598415,0.182282260588986,3.76595650970186,5732
+"{Sexo=Mujer,Edad=[-7.97e+03,26),Sector=Privado} => {Grupos_Quinquenales=20 a 24}",0.103782898697296,0.750217580504787,0.138337065664957,3.73123184440518,4310
+"{Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=20 a 24}",0.111945869151677,0.748149340199549,0.149630378771461,3.72094538313139,4649
+"{Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.201064316501722,1,0.201064316501722,3.68556975505857,8350
+"{Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.201064316501722,0.74103656372027,0.271328469262443,3.68556975505857,8350
+"{Nivel_Educativo=Técnico,Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.104481205904308,1,0.104481205904308,3.68556975505857,4339
+"{Sexo=Hombre,Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.0630402851019769,1,0.0630402851019769,3.68556975505857,2618
+"{Departamento=Guatemala,Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.0677598786390233,1,0.0677598786390233,3.68556975505857,2814
+"{Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ignorado} => {Edad=[-7.97e+03,26)}",0.0569722362686316,1,0.0569722362686316,3.68556975505857,2366
+"{Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Edad=[-7.97e+03,26)}",0.111945869151677,1,0.111945869151677,3.68556975505857,4649
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.0945845072118279,1,0.0945845072118279,3.68556975505857,3928
+"{Sexo=Mujer,Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.138024031399745,1,0.138024031399745,3.68556975505857,5732
+"{Grupos_Quinquenales=20 a 24,Sector=Privado} => {Edad=[-7.97e+03,26)}",0.154735245250307,1,0.154735245250307,3.68556975505857,6426
+"{Nivel_Educativo=Técnico,Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Edad=[-7.97e+03,26)}",0.0567073611211443,1,0.0567073611211443,3.68556975505857,2355
+"{Nivel_Educativo=Técnico,Sexo=Mujer,Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.0742372799730309,1,0.0742372799730309,3.68556975505857,3083
+"{Nivel_Educativo=Técnico,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Edad=[-7.97e+03,26)}",0.0645332177514508,1,0.0645332177514508,3.68556975505857,2680
+"{Sexo=Hombre,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Edad=[-7.97e+03,26)}",0.0509523465530111,1,0.0509523465530111,3.68556975505857,2116
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.0539141322930964,1,0.0539141322930964,3.68556975505857,2239
+"{Departamento=Guatemala,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Edad=[-7.97e+03,26)}",0.0581039755351682,1,0.0581039755351682,3.68556975505857,2413
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Edad=[-7.97e+03,26)}",0.054443882588071,1,0.054443882588071,3.68556975505857,2261
+"{Sexo=Mujer,Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Edad=[-7.97e+03,26)}",0.0790291121866647,1,0.0790291121866647,3.68556975505857,3282
+"{Grupos_Quinquenales=20 a 24,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Edad=[-7.97e+03,26)}",0.0840376604300609,1,0.0840376604300609,3.68556975505857,3490
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Grupos_Quinquenales=20 a 24} => {Edad=[-7.97e+03,26)}",0.0625346143658648,1,0.0625346143658648,3.68556975505857,2597
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Edad=[-7.97e+03,26)}",0.0882275036721327,1,0.0882275036721327,3.68556975505857,3664
+"{Sexo=Mujer,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Edad=[-7.97e+03,26)}",0.103782898697296,1,0.103782898697296,3.68556975505857,4310
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Edad=[-7.97e+03,26)}",0.0509282669941487,1,0.0509282669941487,3.68556975505857,2115
+"{Sexo=Mujer,Grupos_Quinquenales=20 a 24,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Edad=[-7.97e+03,26)}",0.0576223843579186,1,0.0576223843579186,3.68556975505857,2393
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Edad=[-7.97e+03,26)}",0.0587541236244552,1,0.0587541236244552,3.68556975505857,2440
+"{Edad=[-7.97e+03,26),Sector=Privado} => {Grupos_Quinquenales=20 a 24}",0.154735245250307,0.739640883977901,0.20920320739724,3.6786282958944,6426
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Sector=Privado} => {Grupos_Quinquenales=20 a 24}",0.0509282669941487,0.727053970436576,0.0700474367309591,3.61602686685755,2115
+"{Sexo=Hombre,Edad=[-7.97e+03,26),Sector=Privado} => {Grupos_Quinquenales=20 a 24}",0.0509523465530111,0.71899422358138,0.0708661417322835,3.57594145043247,2116
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Sector=Privado} => {Grupos_Quinquenales=20 a 24}",0.0581039755351682,0.715599051008304,0.0811962724842881,3.55905544782321,2413
+"{Sexo=Hombre,Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.0630402851019769,0.707950243374797,0.0890462086734571,3.52101385115113,2618
+"{Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ignorado} => {Grupos_Quinquenales=20 a 24}",0.0569722362686316,0.70332936979786,0.0810036360133882,3.49803178423177,2366
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[-7.97e+03,26),Sector=Privado} => {Grupos_Quinquenales=20 a 24}",0.0587541236244552,0.699140401146132,0.0840376604300609,3.47719781068236,2440
+"{Departamento=Guatemala,Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.0677598786390233,0.693274205469327,0.097738929422813,3.44802209328571,2814
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Sector=Privado} => {Grupos_Quinquenales=20 a 24}",0.0882275036721327,0.684987848195925,0.128801560355414,3.40680962248246,3664
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.0539141322930964,0.683455433455433,0.0788846348334899,3.39918810730188,2239
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.0625346143658648,0.672972272609484,0.0929230176503166,3.34704976158075,2597
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=20 a 24}",0.054443882588071,0.670124481327801,0.0812444316020131,3.33288617785177,2261
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26)} => {Grupos_Quinquenales=20 a 24}",0.0945845072118279,0.655431336559319,0.144308796262852,3.25980933843976,3928
+"{Grupos_Quinquenales=40 a 44} => {Edad=[34,124]}",0.0582002937706181,1,0.0582002937706181,2.89118629908104,2417
+"{Grupos_Quinquenales=70 y más} => {Edad=[34,124]}",0.0616195911290905,1,0.0616195911290905,2.89118629908104,2559
+"{Grupos_Quinquenales=35 a 39} => {Edad=[34,124]}",0.10431264899227,1,0.10431264899227,2.89118629908104,4332
+"{Grupos_Quinquenales=70 y más,Pueblo_Pertenencia=Ignorado} => {Edad=[34,124]}",0.0611379999518409,1,0.0611379999518409,2.89118629908104,2539
+"{Grupos_Quinquenales=70 y más,Sector=Privado} => {Edad=[34,124]}",0.0611620795107034,1,0.0611620795107034,2.89118629908104,2540
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=35 a 39} => {Edad=[34,124]}",0.0583688506826555,1,0.0583688506826555,2.89118629908104,2424
+"{Sexo=Mujer,Grupos_Quinquenales=35 a 39} => {Edad=[34,124]}",0.0636904331912639,1,0.0636904331912639,2.89118629908104,2645
+"{Grupos_Quinquenales=35 a 39,Sector=Privado} => {Edad=[34,124]}",0.0578631799465434,1,0.0578631799465434,2.89118629908104,2403
+"{Grupos_Quinquenales=70 y más,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Edad=[34,124]}",0.0610176021575285,1,0.0610176021575285,2.89118629908104,2534
+"{Grupos_Quinquenales=70 y más,Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.0610176021575285,0.997637795275591,0.0611620795107034,2.27942891725352,2534
+"{Edad=[34,124],Grupos_Quinquenales=70 y más,Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.0610176021575285,0.997637795275591,0.0611620795107034,2.27942891725352,2534
+"{Grupos_Quinquenales=70 y más} => {Pueblo_Pertenencia=Ignorado}",0.0611379999518409,0.992184447049629,0.0616195911290905,2.26696896465251,2539
+"{Edad=[34,124],Grupos_Quinquenales=70 y más} => {Pueblo_Pertenencia=Ignorado}",0.0611379999518409,0.992184447049629,0.0616195911290905,2.26696896465251,2539
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[26,34),Sector=Privado} => {Grupos_Quinquenales=25 a 29}",0.0703604709961713,0.676702176933766,0.103975535168196,2.22560898914092,2922
+"{Grupos_Quinquenales=30 a 34,Pueblo_Pertenencia=Ladino} => {Edad=[26,34)}",0.0674709239326736,0.846781504986401,0.0796792602759517,2.21225397084677,2802
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=30 a 34,Sector=Privado} => {Edad=[26,34)}",0.0593801921548797,0.845969125214408,0.070191914084134,2.21013159291829,2466
+"{Sexo=Mujer,Grupos_Quinquenales=30 a 34,Sector=Privado} => {Edad=[26,34)}",0.0580076572997183,0.845559845559846,0.0686026631992102,2.20906233179761,2409
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=30 a 34} => {Edad=[26,34)}",0.0847841267547979,0.843757488617302,0.100483999133136,2.2043535949162,3521
+"{Sexo=Mujer,Grupos_Quinquenales=30 a 34} => {Edad=[26,34)}",0.0863252185219967,0.842538190364277,0.102458522959859,2.20116812453687,3585
+"{Departamento=Guatemala,Grupos_Quinquenales=30 a 34} => {Edad=[26,34)}",0.071444051144983,0.841940976163451,0.0848563654313853,2.19960787613814,2967
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=25 a 29}",0.0673505261383611,0.667860553963706,0.100845192516073,2.19652973355181,2797
+"{Grupos_Quinquenales=30 a 34,Sector=Privado} => {Edad=[26,34)}",0.100556237809723,0.83956574185766,0.119771725781984,2.19340247191789,4176
+"{Grupos_Quinquenales=30 a 34} => {Edad=[26,34)}",0.146620433913651,0.836056570094741,0.175371427195454,2.18423460615655,6089
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Sector=Privado} => {Grupos_Quinquenales=25 a 29}",0.116954417395073,0.663252765260139,0.176334609549953,2.18137515549919,4857
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.0948012232415902,0.660570469798658,0.143514170820391,2.17255334127413,3937
+"{Grupos_Quinquenales=30 a 34,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Edad=[26,34)}",0.0589708396542175,0.827364864864865,0.0712754942329457,2.16152714349352,2449
+"{Sexo=Hombre,Grupos_Quinquenales=30 a 34} => {Edad=[26,34)}",0.060295215391654,0.826948480845443,0.0729129042355944,2.16043932190679,2504
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.0749115076211804,0.655775716694772,0.114233427243613,2.15678385512134,3111
+"{Nivel_Educativo=Licenciatura,Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.159527077463941,0.652966686378869,0.244311204218739,2.14754522203437,6625
+"{Grupos_Quinquenales=30 a 34,Pueblo_Pertenencia=Ignorado} => {Edad=[26,34)}",0.0611139203929784,0.818181818181818,0.074694791591418,2.13753602964725,2538
+"{Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Edad=[26,34)}",0.0979315658937128,0.812749800159872,0.120494112547858,2.12334464335929,4067
+"{Grupos_Quinquenales=25 a 29,Sector=Público} => {Edad=[26,34)}",0.0656649570179874,0.812090530077427,0.0808591586602133,2.12162227123713,2727
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Grupos_Quinquenales=25 a 29}",0.0745984733559681,0.64474505723205,0.115702280334224,2.12050506706184,3098
+"{Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Edad=[26,34)}",0.0962941558910641,0.811650091333469,0.118639986515447,2.12047160562328,3999
+"{Sexo=Mujer,Edad=[26,34),Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Grupos_Quinquenales=25 a 29}",0.0584170098003805,0.642649006622517,0.0909003347058682,2.11361135630209,2426
+"{Nivel_Educativo=Licenciatura,Sexo=Hombre,Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.0647258542223507,0.642140468227425,0.100797033398348,2.11193882197012,2688
+"{Sexo=Mujer,Edad=[26,34),Sector=Privado} => {Grupos_Quinquenales=25 a 29}",0.103927376050471,0.6417843866171,0.161935033350189,2.11076770347838,4316
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Grupos_Quinquenales=25 a 29}",0.075344939680705,0.641582940332171,0.117436008572323,2.11010516583945,3129
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Edad=[26,34)}",0.0595005899491921,0.807516339869281,0.0736834501191938,2.10967199788823,2471
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Edad=[26,34)}",0.0584170098003805,0.806515957446808,0.0724313130583448,2.10705845475645,2426
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Edad=[26,34)}",0.075344939680705,0.806235506312806,0.0934527679452912,2.10632576381885,3129
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Edad=[26,34)}",0.0745984733559681,0.804675324675325,0.0927063016205543,2.10224972058641,3098
+"{Sexo=Mujer,Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Grupos_Quinquenales=25 a 29}",0.0595005899491921,0.636199794026777,0.0935250066218787,2.09240051050432,2471
+"{Edad=[26,34),Sector=Privado,Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=25 a 29}",0.0587300440655927,0.634330299089727,0.0925859038262419,2.08625191976695,2439
+"{Edad=[26,34),Sector=Privado} => {Grupos_Quinquenales=25 a 29}",0.17048327674637,0.628997867803838,0.271039514556093,2.06871406129925,7080
+"{Departamento=Guatemala,Sexo=Mujer,Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.0647980928989381,0.791005291005291,0.0819186592501625,2.06653615564662,2691
+"{Departamento=Guatemala,Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.109248958559079,0.788494960027807,0.138553781694719,2.05997780542242,4537
+"{Sexo=Mujer,Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.144429194057165,0.625900031305437,0.230754412579162,2.0585255721932,5998
+"{Sexo=Hombre,Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.0917190397071926,0.786171310629515,0.116665462688724,2.05390716904461,3809
+"{Edad=[26,34),Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Grupos_Quinquenales=25 a 29}",0.0962941558910641,0.620192307692308,0.155264995545282,2.03975341301606,3999
+"{Departamento=Guatemala,Edad=[26,34),Sector=Privado} => {Grupos_Quinquenales=25 a 29}",0.0749837462977678,0.617367168913561,0.121457294902357,2.03046180072949,3114
+"{Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.236148233764357,0.776669042527916,0.304052589756556,2.02908207518507,9807
+"{Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.236148233764357,0.616947659788626,0.382768667678008,2.02908207518507,9807
+"{Sexo=Hombre,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Edad=[26,34)}",0.0665559006958993,0.776622646810902,0.0856991499915722,2.02896086433128,2764
+"{Sexo=Mujer,Edad=[26,34),Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=25 a 29}",0.0665318211370368,0.615778916870961,0.108044980615955,2.02523819107738,2763
+"{Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Grupos_Quinquenales=25 a 29}",0.0979315658937128,0.615745647236942,0.159045486286691,2.02512877042076,4067
+"{Nivel_Educativo=Licenciatura,Sexo=Hombre,Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.0647258542223507,0.77463976945245,0.0835560692528113,2.02378050991386,2688
+"{Edad=[26,34),Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=25 a 29}",0.10790050326278,0.61526843333791,0.175371427195454,2.02355925937199,4481
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.144429194057165,0.770753019789257,0.187387127067832,2.01362620526095,5998
+"{Departamento=Guatemala,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Edad=[26,34)}",0.0749837462977678,0.769268774703557,0.0974740542753257,2.00974854961399,3114
+"{Sexo=Hombre,Edad=[26,34),Sector=Privado} => {Grupos_Quinquenales=25 a 29}",0.0665559006958993,0.610019863164864,0.109104481205904,2.00629721211481,2764
+"{Departamento=Guatemala,Edad=[26,34),Pueblo_Pertenencia=Ladino} => {Grupos_Quinquenales=25 a 29}",0.05579233788437,0.608615707906488,0.0916708805894676,2.00167907924674,2317
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.159527077463941,0.766073080481036,0.208240025042741,2.00139965773131,6625
+"{Departamento=Guatemala,Sexo=Mujer,Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.0647980928989381,0.607860853851367,0.106600207084206,1.99919643617592,2691
+"{Grupos_Quinquenales=25 a 29,Sector=Privado} => {Edad=[26,34)}",0.17048327674637,0.763836444060848,0.223193431096342,1.99555634659052,7080
+"{Departamento=Guatemala,Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.109248958559079,0.604610874200426,0.180693009704062,1.98850756273616,4537
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.0948012232415902,0.760332174584782,0.12468395578993,1.98640128826946,3937
+"{Sexo=Hombre,Edad=[26,34)} => {Grupos_Quinquenales=25 a 29}",0.0917190397071926,0.603358149849517,0.152014255098847,1.98438747169562,3809
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Edad=[26,34)}",0.103927376050471,0.755866900175131,0.13749428110477,1.97473556224038,4316
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29} => {Edad=[26,34)}",0.0749115076211804,0.75235792019347,0.0995689758963616,1.96556819751602,3111
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Edad=[26,34)}",0.116954417395073,0.747230769230769,0.156517132606131,1.95217328984553,4857
+"{Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Edad=[26,34)}",0.10790050326278,0.744599534729146,0.144910785234415,1.94529907384038,4481
+"{Departamento=Guatemala,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Edad=[26,34)}",0.05579233788437,0.741914825488313,0.0752004623275302,1.93828515272422,2317
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Edad=[26,34)}",0.0665318211370368,0.741346927823987,0.0897445158804691,1.93680149506809,2763
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Edad=[26,34)}",0.0703604709961713,0.73955960516325,0.0951383370656649,1.93213203590995,2922
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Edad=[26,34)}",0.0673505261383611,0.716261203585147,0.0940306773579908,1.87126393581326,2797
+"{Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Edad=[26,34)}",0.0587300440655927,0.695664575014261,0.0844229333718606,1.81745433667383,2439
+"{Nivel_Educativo=Licenciatura,Edad=[34,124],Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.090442823087481,0.772045220966084,0.117147053865973,1.76398910549629,3756
+"{Departamento=Guatemala,Sexo=Mujer,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0587059645067302,0.777423469387755,0.0755134965927424,1.73457364531264,2438
+"{Departamento=Guatemala,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.095740326037227,0.773691379645845,0.123744852994293,1.72624667196649,3976
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0612824773050158,0.765413533834586,0.0800645332177514,1.70777728719801,2545
+"{Sexo=Mujer,Edad=[26,34),Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.051843290230923,0.75332400279916,0.0688193792289725,1.68080333703575,2153
+"{Nivel_Educativo=Maestría,Sexo=Mujer} => {Departamento=Guatemala}",0.0558886561198199,0.722153080273802,0.077391702184016,1.67151350299246,2321
+"{Grupos_Quinquenales=25 a 29,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0604878518625539,0.748064324002382,0.0808591586602134,1.66906803371272,2512
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0506874714055238,0.745660644704215,0.0679765946687857,1.66370498651058,2105
+"{Edad=[26,34),Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0827855233692119,0.740948275862069,0.111729153121915,1.65319083158415,3438
+"{Nivel_Educativo=Maestría,Sector=Privado} => {Departamento=Guatemala}",0.0874810373473958,0.70488940628638,0.12410604637723,1.63155457327316,3633
+"{Nivel_Educativo=Maestría} => {Departamento=Guatemala}",0.104457126345445,0.703421436679098,0.148498639504924,1.62815677426409,4338
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Departamento=Guatemala}",0.0570685545040815,0.702430349733254,0.0812444316020131,1.62586277973873,2370
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26)} => {Pueblo_Pertenencia=Ladino}",0.0570685545040815,0.723443223443223,0.0788846348334899,1.61413386484573,2370
+"{Nivel_Educativo=Maestría,Edad=[34,124]} => {Departamento=Guatemala}",0.0505911531700739,0.690210249671485,0.0732981771773941,1.59757783182516,2101
+"{Edad=[34,124],Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.160755134965927,0.688318383338488,0.233547641407209,1.57268783789965,6676
+"{Departamento=Guatemala,Edad=[-7.97e+03,26)} => {Pueblo_Pertenencia=Ladino}",0.0686508223169352,0.702389751170239,0.097738929422813,1.5671597258018,2851
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Sector=Privado} => {Pueblo_Pertenencia=Ladino}",0.0555756218546076,0.684460260972717,0.0811962724842881,1.52715576091635,2308
+"{Departamento=Guatemala,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.0509282669941487,0.876502279320348,0.0581039755351682,1.52602453183645,2115
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.0509282669941487,0.876502279320348,0.0581039755351682,1.52602453183645,2115
+"{Sexo=Hombre,Edad=[34,124],Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.0584892484769679,0.658444022770398,0.0888294926436948,1.50443011782746,2429
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.0700474367309591,0.862692763938316,0.0811962724842881,1.50198162887663,2909
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.115702280334224,0.656151850334562,0.176334609549953,1.49919290231866,4805
+"{Nivel_Educativo=Licenciatura,Sector=Público,Pueblo_Pertenencia=Ladino} => {Departamento=Guatemala}",0.0612824773050158,0.647582697201018,0.0946326663295528,1.49891103734595,2545
+"{Departamento=Guatemala,Edad=[34,124],Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.0689156974644225,0.65238203783907,0.105637024729707,1.4905795361696,2862
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[26,34),Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.0677598786390233,0.651690597498842,0.103975535168196,1.48899971520298,2814
+"{Nivel_Educativo=Licenciatura,Edad=[34,124]} => {Pueblo_Pertenencia=Ignorado}",0.119362373281321,0.642597873995333,0.185749717065183,1.46822442281867,4957
+"{Nivel_Educativo=Técnico,Sexo=Mujer,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0516988128777481,0.657983450812136,0.0785716005682776,1.46808116524887,2147
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Grupos_Quinquenales=25 a 29,Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.0745984733559681,0.637842289479102,0.116954417395073,1.45735873898425,3098
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0570685545040815,0.831287267625395,0.0686508223169352,1.4473034392829,2370
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[34,124]} => {Pueblo_Pertenencia=Ignorado}",0.066242866430687,0.632413793103448,0.104746081051795,1.44495556854055,2751
+"{Nivel_Educativo=Licenciatura,Sexo=Hombre,Pueblo_Pertenencia=Ladino} => {Departamento=Guatemala}",0.0582243733294806,0.620318111852232,0.0938621204459534,1.43580374914231,2418
+"{Sexo=Mujer,Edad=[34,124],Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.0715885284981579,0.627744932432432,0.114040790772713,1.43428803361501,2973
+"{Sexo=Mujer,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.117676804160948,0.638907046672768,0.184184545739122,1.42551822603951,4887
+"{Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.182113703676949,0.636294800605755,0.286209636639457,1.4196898283112,7563
+"{Sexo=Hombre,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0644368995160009,0.631578947368421,0.102025090900335,1.40916789906319,2676
+"{Departamento=Guatemala,Edad=[-7.97e+03,26)} => {Nivel_Educativo=Licenciatura}",0.0788846348334899,0.80709534368071,0.097738929422813,1.40518435952359,3276
+"{Nivel_Educativo=Licenciatura,Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.259288689831202,0.614016080287392,0.42228322377134,1.40291999330189,10768
+"{Nivel_Educativo=Licenciatura,Sexo=Hombre,Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.100195044426786,0.613897904986722,0.163211249969901,1.4026499832853,4161
+"{Grupos_Quinquenales=70 y más,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0610176021575285,0.998030720756203,0.0611379999518409,1.39821265736546,2534
+"{Edad=[34,124],Grupos_Quinquenales=70 y más,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0610176021575285,0.998030720756203,0.0611379999518409,1.39821265736546,2534
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.053143586409497,0.99683830171635,0.0533121433215344,1.39654211220114,2207
+"{Departamento=Guatemala,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.053047268174047,0.993237150586114,0.0534084615569843,1.39149700187871,2203
+"{Departamento=Guatemala,Edad=[26,34),Sector=Privado} => {Pueblo_Pertenencia=Ignorado}",0.0739483252666811,0.608842188739096,0.121457294902357,1.39109855062423,3071
+"{Grupos_Quinquenales=70 y más} => {Sector=Privado}",0.0611620795107034,0.992575224697147,0.0616195911290905,1.3905696625324,2540
+"{Edad=[34,124],Grupos_Quinquenales=70 y más} => {Sector=Privado}",0.0611620795107034,0.992575224697147,0.0616195911290905,1.3905696625324,2540
+"{Nivel_Educativo=Técnico,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0679765946687857,0.622903795233892,0.109128560764767,1.38981205137637,2823
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0927063016205543,0.992012367946406,0.0934527679452912,1.38978111623136,3850
+"{Departamento=Guatemala,Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0739483252666811,0.990964827363666,0.0746225529148306,1.38831354166534,3071
+"{Nivel_Educativo=Licenciatura,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0946326663295528,0.622229259024699,0.152086493775434,1.38830703798618,3930
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0568277589154567,0.990764063811923,0.0573575092104313,1.38803227763875,2360
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0745984733559681,0.990092681367849,0.075344939680705,1.38709168992765,3098
+"{Departamento=Guatemala,Grupos_Quinquenales=20 a 24} => {Nivel_Educativo=Licenciatura}",0.0539141322930964,0.795664534470505,0.0677598786390233,1.38528287645267,2239
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Nivel_Educativo=Licenciatura}",0.0539141322930964,0.795664534470505,0.0677598786390233,1.38528287645267,2239
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.115702280334224,0.985236825917572,0.117436008572323,1.38028877453466,4805
+"{Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.118639986515447,0.984612310151878,0.120494112547858,1.37941384570716,4927
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0962941558910641,0.983280059011556,0.0979315658937128,1.37754739974668,3999
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0724313130583448,0.983006535947712,0.0736834501191938,1.3771642017128,3008
+"{Sexo=Hombre,Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0643646608394134,0.982359426681367,0.0655204796648125,1.37625762003341,2673
+"{Sexo=Mujer,Edad=[26,34),Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0584170098003805,0.981788749494132,0.0595005899491921,1.37545811752325,2426
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0677598786390233,0.981171548117155,0.0690601748175973,1.37459343594634,2814
+"{Nivel_Educativo=Maestría,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0674227648149486,0.979706088173548,0.0688193792289725,1.37254036824071,2800
+"{Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.155264995545282,0.976230128690386,0.159045486286691,1.36767064785558,6448
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0568277589154567,0.784574468085106,0.0724313130583448,1.36597463988204,2360
+"{Sexo=Mujer,Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0909003347058682,0.971936148300721,0.0935250066218787,1.36165490344367,3775
+"{Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0927063016205543,0.781408565049726,0.118639986515447,1.36046267966084,3850
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0573575092104313,0.77843137254902,0.0736834501191938,1.35527927181437,2382
+"{Edad=[26,34),Grupos_Quinquenales=30 a 34,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0589708396542175,0.964933018124507,0.0611139203929784,1.35184371722473,2449
+"{Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0934527679452912,0.775579536370903,0.120494112547858,1.35031411419726,3881
+"{Departamento=Guatemala,Sexo=Hombre,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0644609790748634,0.963296149694135,0.0669170940788365,1.34955051110372,2677
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0745984733559681,0.774693673418355,0.0962941558910641,1.34877179236955,3098
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Sector=Público} => {Pueblo_Pertenencia=Ladino}",0.0564184064147945,0.601386036960986,0.0938139613282285,1.34180200553123,2343
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.075344939680705,0.769363166953528,0.0979315658937128,1.33949117345462,3129
+"{Grupos_Quinquenales=30 a 34,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0712754942329457,0.954223081882656,0.074694791591418,1.33683940112353,2960
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0509282669941487,0.944618133095132,0.0539141322930964,1.32338314102175,2115
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0509282669941487,0.944618133095132,0.0539141322930964,1.32338314102175,2115
+"{Departamento=Guatemala,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.1645597052662,0.943922651933702,0.174336006164367,1.32240879169297,6834
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.101374942811048,0.942045200268516,0.10761154855643,1.3197785353018,4210
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0587541236244552,0.939545629572584,0.0625346143658648,1.31627670784063,2440
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0587541236244552,0.939545629572584,0.0625346143658648,1.31627670784063,2440
+"{Nivel_Educativo=Licenciatura,Sexo=Hombre,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.100195044426786,0.937162162162162,0.106913241349418,1.31293753778067,4161
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0882275036721327,0.932790224032587,0.0945845072118279,1.30681257679214,3664
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0882275036721327,0.932790224032587,0.0945845072118279,1.30681257679214,3664
+"{Sexo=Mujer,Edad=[26,34),Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0677598786390233,0.745430463576159,0.0909003347058682,1.29782340677711,2814
+"{Edad=[26,34),Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.115702280334224,0.745192307692308,0.155264995545282,1.29740876812786,4805
+"{Departamento=Guatemala,Sexo=Mujer,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0902983457343061,0.92501233349778,0.0976185316285006,1.29591597334377,3750
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Sexo=Mujer,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0574056683281562,0.923315259488768,0.0621734209829276,1.29353842091924,2384
+"{Sexo=Hombre,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.148257843916299,0.918543935551246,0.161405283055214,1.28685393177167,6157
+"{Sexo=Mujer,Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0690601748175973,0.738414006179197,0.0935250066218787,1.28560748176816,2868
+"{Edad=[26,34),Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.117436008572323,0.738380015140045,0.159045486286691,1.285548302048,4877
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0506152327289364,0.76827485380117,0.0658816730477498,1.28367275813755,2102
+"{Edad=[-7.97e+03,26),Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.053143586409497,0.734931734931735,0.0723109152640324,1.27954471219469,2207
+"{Nivel_Educativo=Técnico,Sector=Público,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0516988128777481,0.760538434289763,0.0679765946687857,1.27074635436007,2147
+"{Departamento=Guatemala,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0548050759710082,0.728786423310919,0.0752004623275302,1.26884548583739,2276
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[-7.97e+03,26)} => {Sector=Privado}",0.0840376604300609,0.904379372894532,0.0929230176503166,1.26700978230736,3490
+"{Departamento=Guatemala,Edad=[34,124],Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0689156974644225,0.898587127158556,0.076693394977004,1.25889501075356,2862
+"{Nivel_Educativo=Licenciatura,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.259288689831202,0.893758300132802,0.290110525175179,1.25212996141467,10768
+"{Departamento=Guatemala,Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.0995689758963616,0.718630517900591,0.138553781694719,1.25116365982869,4135
+"{Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0723109152640324,0.89268727705113,0.0810036360133882,1.25062948853545,3003
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26)} => {Sector=Privado}",0.128801560355414,0.892541298181211,0.144308796262852,1.2504249762901,5349
+"{Sexo=Hombre,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.0613787955404657,0.716212419218882,0.0856991499915722,1.24695365604917,2549
+"{Sexo=Hombre,Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.0835560692528113,0.716202270381837,0.116665462688724,1.24693598652946,3470
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26)} => {Sector=Privado}",0.0700474367309591,0.887973137973138,0.0788846348334899,1.24402511374984,2909
+"{Nivel_Educativo=Técnico,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.101952852223747,0.744243276498506,0.136988610368658,1.24351957472164,4234
+"{Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.388331045775241,0.887268926056338,0.437670061884466,1.24303853288107,16127
+"{Sexo=Hombre,Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.0647258542223507,0.705697033342085,0.0917190397071926,1.22864596057785,2688
+"{Sexo=Mujer,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.14739097979725,0.703886844526219,0.20939584386814,1.22549435149999,6121
+"{Grupos_Quinquenales=25 a 29,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.156517132606131,0.701262272089762,0.223193431096342,1.22092486888927,6500
+"{Departamento=Guatemala,Sexo=Mujer,Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.0573334296515688,0.699882422104644,0.0819186592501625,1.21852249644002,2381
+"{Nivel_Educativo=Técnico,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0502540393459992,0.728192602930914,0.0690120156998724,1.21670129177702,2087
+"{Sexo=Mujer,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.171494618218594,0.698303755270125,0.24558742083845,1.21577397612933,7122
+"{Departamento=Guatemala,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.067591321726986,0.693428853754941,0.0974740542753257,1.20728658313793,2807
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.095138337065665,0.691943957968476,0.13749428110477,1.20470132186613,3951
+"{Sexo=Hombre,Edad=[34,124],Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0584892484769679,0.859518754423213,0.0680488333453731,1.20416133159402,2429
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.14739097979725,0.859449592811008,0.171494618218594,1.20406443814217,6121
+"{Nivel_Educativo=Técnico,Sector=Público} => {Sexo=Mujer}",0.0785716005682776,0.719991173874669,0.109128560764767,1.20299792636657,3263
+"{Departamento=Guatemala,Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0581039755351682,0.857498223169865,0.0677598786390233,1.20133062476879,2413
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0581039755351682,0.857498223169865,0.0677598786390233,1.20133062476879,2413
+"{Departamento=Quetzaltenango} => {Sector=Privado}",0.0706494257025211,0.853899883585565,0.0827373642514869,1.19628945334227,2934
+"{Sexo=Mujer,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.20939584386814,0.852632611040298,0.24558742083845,1.19451404054558,8696
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.116954417395073,0.686016949152542,0.17048327674637,1.19438216917603,4857
+"{Departamento=Guatemala,Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.0749115076211804,0.685695393431783,0.109248958559079,1.19382232816956,3111
+"{Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.208240025042741,0.68488160291439,0.304052589756556,1.19240548725241,8648
+"{Nivel_Educativo=Maestría,Sexo=Mujer} => {Sector=Privado}",0.0657853548122998,0.850031113876789,0.077391702184016,1.19086941700196,2732
+"{Nivel_Educativo=Técnico,Grupos_Quinquenales=20 a 24} => {Sexo=Mujer}",0.0742372799730309,0.710532380732888,0.104481205904308,1.18719369299763,3083
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sexo=Mujer}",0.0742372799730309,0.710532380732888,0.104481205904308,1.18719369299763,3083
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0687712201112476,0.846473029045643,0.0812444316020131,1.18588464133983,2856
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26)} => {Sexo=Mujer}",0.0853379566086349,0.709083633453381,0.120349635194683,1.18477305225047,3544
+"{Grupos_Quinquenales=30 a 34,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0506874714055238,0.6785944551902,0.074694791591418,1.18145931872694,2105
+"{Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0790291121866647,0.705958270595827,0.111945869151677,1.17955103679638,3282
+"{Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0790291121866647,0.705958270595827,0.111945869151677,1.17955103679638,3282
+"{Sexo=Mujer,Edad=[26,34),Grupos_Quinquenales=25 a 29,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.0703604709961713,0.677015755329008,0.103927376050471,1.17871074091554,2922
+"{Sexo=Hombre,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.100195044426786,0.675816144226084,0.148257843916299,1.17662217136482,4161
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.159527077463941,0.675537881105333,0.236148233764357,1.17613770445744,6625
+"{Departamento=Guatemala,Nivel_Educativo=Maestría} => {Sector=Privado}",0.0874810373473958,0.837482710926694,0.104457126345445,1.1732894613256,3633
+"{Nivel_Educativo=Maestría} => {Sector=Privado}",0.12410604637723,0.835738608723853,0.148498639504924,1.17084602373892,5154
+"{Sexo=Mujer,Edad=[34,124],Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.066242866430687,0.669831994156318,0.0988947482482121,1.16620353353112,2751
+"{Nivel_Educativo=Maestría,Edad=[26,34)} => {Sector=Privado}",0.0575019865636062,0.830897703549061,0.0692046521707722,1.16406405325672,2388
+"{Nivel_Educativo=Maestría,Edad=[34,124]} => {Sector=Privado}",0.0608972043632161,0.830814717477004,0.0732981771773941,1.16394779212976,2529
+"{Departamento=Guatemala,Edad=[-7.97e+03,26)} => {Sector=Privado}",0.0811962724842881,0.830746489283075,0.097738929422813,1.16385220637037,3372
+"{Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.259288689831202,0.667700130216407,0.388331045775241,1.16249187556103,10768
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.12468395578993,0.66538164996145,0.187387127067832,1.15845531133396,5178
+"{Sexo=Hombre,Edad=[26,34),Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.0723590743817573,0.663209004634738,0.109104481205904,1.15467265138457,3005
+"{Sexo=Hombre,Edad=[26,34)} => {Nivel_Educativo=Licenciatura}",0.100797033398348,0.663076191984793,0.152014255098847,1.15444141939951,4186
+"{Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.290110525175179,0.662852112676056,0.437670061884466,1.1540512886146,12048
+"{Sexo=Hombre,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.106913241349418,0.662389974638222,0.161405283055214,1.15324668833064,4440
+"{Grupos_Quinquenales=20 a 24} => {Sexo=Mujer}",0.138024031399745,0.686467065868263,0.201064316501722,1.14698413914476,5732
+"{Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sexo=Mujer}",0.138024031399745,0.686467065868263,0.201064316501722,1.14698413914476,5732
+"{Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.102699318548484,0.686353395558416,0.149630378771461,1.14679421300123,4265
+"{Departamento=Guatemala,Sexo=Mujer,Edad=[-7.97e+03,26)} => {Sector=Privado}",0.0512653808182234,0.818531334102268,0.0626309326013147,1.14673912134174,2129
+"{Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0533121433215343,0.658145065398335,0.0810036360133882,1.14585613637393,2214
+"{Grupos_Quinquenales=20 a 24,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0576223843579186,0.68567335243553,0.0840376604300609,1.14565796231322,2393
+"{Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0576223843579186,0.68567335243553,0.0840376604300609,1.14565796231322,2393
+"{Sexo=Mujer,Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Nivel_Educativo=Licenciatura}",0.0948012232415902,0.656385461820607,0.144429194057165,1.14279259816157,3937
+"{Nivel_Educativo=Maestría,Sexo=Hombre} => {Sector=Privado}",0.0564184064147945,0.815240083507307,0.0692046521707722,1.14212817285615,2343
+"{Edad=[34,124],Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.160755134965927,0.813451931278177,0.197620939584387,1.13962302243536,6676
+"{Departamento=Guatemala,Sexo=Hombre,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0582243733294806,0.654043819312956,0.0890221291145946,1.13871570755242,2418
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26),Sector=Privado} => {Sexo=Mujer}",0.0504225962580366,0.681197137280416,0.0740205639432686,1.13817887403413,2094
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0555756218546076,0.809540512101017,0.0686508223169352,1.13414323540273,2308
+"{Edad=[26,34),Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.176334609549953,0.650586353944563,0.271039514556093,1.13269612597844,7323
+"{Sexo=Hombre,Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0509523465530111,0.808250572956455,0.0630402851019769,1.13233606734503,2116
+"{Sexo=Hombre,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0509523465530111,0.808250572956455,0.0630402851019769,1.13233606734503,2116
+"{Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0940306773579908,0.648886673313393,0.144910785234415,1.12973691594482,3905
+"{Departamento=Guatemala,Sector=Público} => {Nivel_Educativo=Licenciatura}",0.0800645332177514,0.647013037555945,0.123744852994293,1.12647484327593,3325
+"{Edad=[-7.97e+03,26),Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0742372799730309,0.674027109750765,0.110139902236991,1.12619882682919,3083
+"{Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.054443882588071,0.644894466628637,0.0844229333718606,1.12278632895739,2261
+"{Edad=[-7.97e+03,26)} => {Sexo=Mujer}",0.182282260588986,0.671813986510472,0.271328469262443,1.12250102779293,7570
+"{Grupos_Quinquenales=20 a 24,Sector=Privado} => {Sexo=Mujer}",0.103782898697296,0.670712729536259,0.154735245250307,1.12066099154743,4310
+"{Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24,Sector=Privado} => {Sexo=Mujer}",0.103782898697296,0.670712729536259,0.154735245250307,1.12066099154743,4310
+"{Sexo=Mujer,Edad=[26,34),Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.103975535168196,0.642081784386617,0.161935033350189,1.11788933986466,4318
+"{Sexo=Hombre,Edad=[-7.97e+03,26)} => {Sector=Privado}",0.0708661417322835,0.795835586803678,0.0890462086734571,1.11494302480754,2943
+"{Departamento=Guatemala,Sector=Público,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0612824773050158,0.640090543259557,0.095740326037227,1.11442251167678,2545
+"{Grupos_Quinquenales=25 a 29,Sector=Público} => {Nivel_Educativo=Licenciatura}",0.0517228924366106,0.639666468135795,0.0808591586602133,1.11368418040546,2148
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24,Sector=Privado} => {Sexo=Mujer}",0.0587541236244552,0.665938864628821,0.0882275036721327,1.11268457490124,2440
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24,Sector=Privado} => {Sexo=Mujer}",0.0587541236244552,0.665938864628821,0.0882275036721327,1.11268457490124,2440
+"{Edad=[26,34)} => {Nivel_Educativo=Licenciatura}",0.244311204218739,0.638273779567187,0.382768667678008,1.11125945548341,10146
+"{Departamento=Guatemala,Sexo=Mujer,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0621734209829276,0.636901825357671,0.0976185316285006,1.10887082988633,2582
+"{Departamento=Guatemala,Sexo=Hombre} => {Nivel_Educativo=Licenciatura}",0.108020901057093,0.636221812508864,0.169784969539358,1.1076869010892,4486
+"{Departamento=Guatemala,Sexo=Mujer,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.0574056683281562,0.635733333333333,0.0902983457343061,1.10683643986081,2384
+"{Edad=[-7.97e+03,26),Sector=Privado} => {Sexo=Mujer}",0.138337065664957,0.661256906077348,0.20920320739724,1.10486172007589,5745
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=20 a 24} => {Sexo=Mujer}",0.0625346143658648,0.661150712830957,0.0945845072118279,1.10468428699082,2597
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sexo=Mujer}",0.0625346143658648,0.661150712830957,0.0945845072118279,1.10468428699082,2597
+"{Departamento=Guatemala,Edad=[26,34)} => {Nivel_Educativo=Licenciatura}",0.114233427243613,0.632196162046908,0.180693009704062,1.10067808718593,4744
+"{Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ignorado} => {Sexo=Mujer}",0.0531676659683595,0.656361474435196,0.0810036360133882,1.09668218353729,2208
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Sector=Privado} => {Sexo=Mujer}",0.0840376604300609,0.652458403439895,0.128801560355414,1.09016073371376,3490
+"{Edad=[-7.97e+03,26),Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.0527101543499723,0.776241134751773,0.0679043559921982,1.08749175471802,2189
+"{Edad=[-7.97e+03,26),Sector=Privado,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0687712201112476,0.624398775688675,0.110139902236991,1.08710253450614,2856
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0673505261383611,0.624191028788217,0.10790050326278,1.08674083907877,2797
+"{Nivel_Educativo=Técnico} => {Sexo=Mujer}",0.174239687928917,0.648677722994173,0.268607479110983,1.08384378025448,7236
+"{Nivel_Educativo=Técnico,Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0581521346528932,0.773047375160051,0.0752245418863926,1.08301738835549,2415
+"{Sexo=Mujer,Edad=[26,34)} => {Nivel_Educativo=Licenciatura}",0.143514170820391,0.62193467598873,0.230754412579162,1.08281244116614,5960
+"{Departamento=Guatemala,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.141684124346842,0.621790129979922,0.227864865515664,1.08256078094731,5884
+"{Edad=[-7.97e+03,26)} => {Sector=Privado}",0.20920320739724,0.771033013844515,0.271328469262443,1.08019532543767,8688
+"{Sector=Público,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.117676804160948,0.64617215390718,0.182113703676949,1.0796573478017,4887
+"{Departamento=Guatemala} => {Nivel_Educativo=Licenciatura}",0.267596137638758,0.619384683981719,0.432035445110646,1.0783728059815,11113
+"{Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.154735245250307,0.769580838323353,0.201064316501722,1.0781608688301,6426
+"{Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.154735245250307,0.769580838323353,0.201064316501722,1.0781608688301,6426
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26)} => {Sexo=Mujer}",0.0929230176503166,0.643917904221592,0.144308796262852,1.07589083260585,3859
+"{Sector=Público} => {Sexo=Mujer}",0.184184545739122,0.643530203600875,0.286209636639457,1.07524304266106,7649
+"{Departamento=Guatemala,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.10761154855643,0.617265193370166,0.174336006164367,1.07468269045695,4469
+"{Departamento=Guatemala,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.101374942811048,0.616037459760023,0.1645597052662,1.07254515852824,4210
+"{Departamento=Guatemala,Sexo=Mujer,Edad=[26,34)} => {Nivel_Educativo=Licenciatura}",0.0656408774591249,0.615766885023718,0.106600207084206,1.07207407739697,2726
+"{Edad=[-7.97e+03,26),Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.128801560355414,0.61567679558011,0.20920320739724,1.0719172281745,5349
+"{Departamento=Guatemala,Edad=[-7.97e+03,26)} => {Sexo=Mujer}",0.0626309326013147,0.64079822616408,0.097738929422813,1.07067831560523,2601
+"{Departamento=Guatemala,Sexo=Mujer,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.108743287822967,0.614589003810561,0.176936598521515,1.07002334042883,4516
+"{Departamento=Guatemala,Sexo=Mujer} => {Nivel_Educativo=Licenciatura}",0.155120518192107,0.61446012972148,0.252450095114258,1.0697989656313,6442
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.095138337065665,0.763035921205098,0.12468395578993,1.0689916260745,3951
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0549736328830456,0.612557016367051,0.0897445158804691,1.06648557132047,2283
+"{Edad=[26,34),Sector=Público,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0506874714055238,0.612274578243165,0.0827855233692119,1.06599383557038,2105
+"{Departamento=Guatemala,Sexo=Hombre,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.0743335982084808,0.611529318541997,0.121553613137807,1.0646963094676,3087
+"{Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.285535408991307,0.63708160962768,0.448192829107371,1.06446840338877,11858
+"{Edad=[34,124],Sector=Público} => {Nivel_Educativo=Licenciatura}",0.0686026631992102,0.610718113612004,0.112331142093477,1.06328397015859,2849
+"{Sexo=Mujer,Edad=[-7.97e+03,26)} => {Sector=Privado}",0.138337065664957,0.75891677675033,0.182282260588986,1.06322082183532,5745
+"{Edad=[34,124],Sector=Público} => {Sexo=Mujer}",0.0713958920272581,0.635584137191854,0.112331142093477,1.0619663501686,2965
+"{Nivel_Educativo=Licenciatura,Edad=[34,124],Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.090442823087481,0.757716360702038,0.119362373281321,1.0615390730896,3756
+"{Departamento=Guatemala,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0804016470418262,0.608529250956807,0.132124539478437,1.05947307521005,3339
+"{Edad=[26,34),Sector=Público} => {Nivel_Educativo=Licenciatura}",0.0679765946687857,0.608405172413793,0.111729153121915,1.05925704964459,2823
+"{Departamento=Guatemala,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.187531604421007,0.608294930875576,0.308290592116352,1.05906511484223,7788
+"{Sexo=Mujer,Edad=[-7.97e+03,26),Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.0840376604300609,0.607484769364665,0.138337065664957,1.0576545921664,3490
+"{Departamento=Guatemala,Edad=[26,34),Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0556719400900575,0.607302337798792,0.0916708805894676,1.05733697172037,2312
+"{Sexo=Hombre,Sector=Privado} => {Nivel_Educativo=Licenciatura}",0.163211249969901,0.607184448624922,0.268800115581883,1.05713172208713,6778
+"{Departamento=Guatemala,Edad=[-7.97e+03,26),Sector=Privado} => {Sexo=Mujer}",0.0512653808182234,0.631376037959668,0.0811962724842881,1.05493524363014,2129
+"{Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.167858604830359,0.630859728506787,0.266079125430422,1.05407256749782,6971
+"{Sexo=Mujer,Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.103782898697296,0.75191905094208,0.138024031399745,1.05341720698221,4310
+"{Sexo=Mujer,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.103782898697296,0.75191905094208,0.138024031399745,1.05341720698221,4310
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.156517132606131,0.751618871415356,0.208240025042741,1.0529966640019,6500
+"{Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0840376604300609,0.750699075069908,0.111945869151677,1.05170805547948,3490
+"{Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0840376604300609,0.750699075069908,0.111945869151677,1.05170805547948,3490
+"{Edad=[34,124],Pueblo_Pertenencia=Ignorado} => {Nivel_Educativo=Licenciatura}",0.119362373281321,0.603996588278299,0.197620939584387,1.05158153333373,4957
+"{Departamento=Guatemala,Sexo=Mujer,Pueblo_Pertenencia=Ladino} => {Nivel_Educativo=Licenciatura}",0.0834597510173614,0.601109954908082,0.138842736401069,1.04655579245285,3466
+"{Edad=[26,34),Sector=Público,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.051843290230923,0.626236183827807,0.0827855233692119,1.04634731354597,2153
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.0703604709961713,0.742189484378969,0.0948012232415902,1.03978636092076,2922
+"{Nivel_Educativo=Licenciatura,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0504225962580366,0.62062833432128,0.081244431602013,1.03697743295226,2094
+"{Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0897445158804691,0.619308740445331,0.144910785234415,1.03477258829025,3727
+"{Nivel_Educativo=Licenciatura,Sexo=Hombre} => {Sector=Privado}",0.163211249969901,0.736899325940422,0.221483782417106,1.03237499939209,6778
+"{Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.110139902236991,0.736079819761828,0.149630378771461,1.03122689454134,4574
+"{Nivel_Educativo=Licenciatura,Sector=Público} => {Sexo=Mujer}",0.0938139613282285,0.616846105129829,0.152086493775434,1.03065789176973,3896
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0665318211370368,0.616603436732872,0.10790050326278,1.03025242905168,2763
+"{Nivel_Educativo=Licenciatura} => {Sector=Privado}",0.422283223771341,0.735211503794072,0.574369717546775,1.03001040856405,17537
+"{Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0520359267018228,0.616371933827724,0.0844229333718606,1.02986562220606,2161
+"{Grupos_Quinquenales=25 a 29} => {Sexo=Mujer}",0.187387127067832,0.616298408172963,0.304052589756556,1.02974277179702,7782
+"{Edad=[26,34),Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.108044980615955,0.616092269669092,0.175371427195454,1.029398345085,4487
+"{Grupos_Quinquenales=25 a 29,Sector=Privado} => {Sexo=Mujer}",0.13749428110477,0.616031934405006,0.223193431096342,1.02929753385256,5710
+"{Edad=[26,34),Sector=Público} => {Sexo=Mujer}",0.0688193792289725,0.615948275862069,0.111729153121915,1.02915775289784,2858
+"{Nivel_Educativo=Licenciatura,Sexo=Hombre,Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.0613787955404657,0.734582132564842,0.0835560692528113,1.02912867737022,2549
+"{Sexo=Hombre,Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.0856991499915722,0.734571723426213,0.116665462688724,1.02911409446302,3559
+"{Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.223193431096342,0.734061930783242,0.304052589756556,1.02839988946791,9269
+"{Sexo=Mujer,Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.13749428110477,0.733744538679003,0.187387127067832,1.027955232156,5710
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.116954417395073,0.733132075471698,0.159527077463941,1.02709718862005,4857
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sexo=Mujer}",0.0573575092104313,0.613759340376192,0.0934527679452912,1.02550036799368,2382
+"{Departamento=Guatemala,Sector=Público,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0587059645067302,0.61317907444668,0.095740326037227,1.02453083012256,2438
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Sexo=Mujer}",0.0568277589154567,0.612987012987013,0.0927063016205543,1.02420992405301,2360
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Sexo=Mujer}",0.144429194057165,0.611603956357704,0.236148233764357,1.02189904259019,5998
+"{Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sexo=Mujer}",0.0736834501191938,0.611510791366906,0.120494112547858,1.02174337777816,3060
+"{Sexo=Mujer,Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0576223843579186,0.729128580134065,0.0790291121866647,1.0214884055051,2393
+"{Sexo=Mujer,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24,Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0576223843579186,0.729128580134065,0.0790291121866647,1.0214884055051,2393
+"{Grupos_Quinquenales=35 a 39} => {Sexo=Mujer}",0.0636904331912639,0.610572483841182,0.10431264899227,1.02017560577109,2645
+"{Edad=[34,124],Grupos_Quinquenales=35 a 39} => {Sexo=Mujer}",0.0636904331912639,0.610572483841182,0.10431264899227,1.02017560577109,2645
+"{Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Sexo=Mujer}",0.0724313130583448,0.610513497057033,0.118639986515447,1.02007704764762,3008
+"{Departamento=Guatemala,Sector=Público} => {Sexo=Mujer}",0.0755134965927424,0.610235454368554,0.123744852994293,1.01961247976148,3136
+"{Nivel_Educativo=Licenciatura,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0869031279346962,0.609628378378378,0.142550988465891,1.01859814627542,3609
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Sector=Privado} => {Sexo=Mujer}",0.103927376050471,0.609604519774011,0.17048327674637,1.018558282104,4316
+"{Departamento=Guatemala,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.138842736401069,0.609320511465709,0.227864865515664,1.0180837465564,5766
+"{Nivel_Educativo=Maestría,Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0504707553757615,0.726013162452373,0.0695176864359845,1.01712379393059,2096
+"{Sexo=Hombre,Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.0665559006958993,0.725649776844316,0.0917190397071926,1.01661470102782,2764
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer} => {Sector=Privado}",0.247369308194274,0.725033523890183,0.341183269522502,1.01575134816434,10273
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29,Sector=Privado} => {Sexo=Mujer}",0.095138337065665,0.607846153846154,0.156517132606131,1.01562031474862,3951
+"{Sexo=Hombre} => {Sector=Privado}",0.268800115581883,0.72487012987013,0.370825206482217,1.01552243778891,11163
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Pueblo_Pertenencia=Ignorado} => {Sexo=Mujer}",0.0595005899491921,0.607573149741824,0.0979315658937128,1.01516416558553,2471
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Edad=[26,34)} => {Sector=Privado}",0.103975535168196,0.724496644295302,0.143514170820391,1.01499919511991,4318
+"{Edad=[34,124],Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0747670302680055,0.607038123167155,0.123166943581594,1.01427021593276,3105
+"{Edad=[26,34),Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0562016903850321,0.60702210663199,0.0925859038262419,1.01424345469,2334
+"{Sexo=Mujer,Edad=[34,124],Pueblo_Pertenencia=Ignorado} => {Sector=Privado}",0.0715885284981579,0.723886048210373,0.0988947482482121,1.01414376736931,2973
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29,Sector=Privado,Pueblo_Pertenencia=Ignorado} => {Sexo=Mujer}",0.0584170098003805,0.606651662915729,0.0962941558910641,1.01362449846016,2426
+"{Departamento=Guatemala,Sector=Privado,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.0801367718943389,0.606524512484053,0.132124539478437,1.01341204904246,3328
+"{Sexo=Mujer,Edad=[-7.97e+03,26),Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0742372799730309,0.722860492379836,0.102699318548484,1.01270699281592,3083
+"{Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.17048327674637,0.721933312939737,0.236148233764357,1.01140804078785,7080
+"{Nivel_Educativo=Licenciatura,Edad=[26,34)} => {Sector=Privado}",0.176334609549953,0.721762270845653,0.244311204218739,1.01116841567821,7323
+"{Nivel_Educativo=Licenciatura,Pueblo_Pertenencia=Ladino} => {Sexo=Mujer}",0.143321534349491,0.604263959390863,0.237183654795444,1.00963500179212,5952
+"{Sexo=Mujer,Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.103927376050471,0.719573191063688,0.144429194057165,1.00810157715764,4316
+"{Edad=[26,34)} => {Sexo=Mujer}",0.230754412579162,0.602856064418722,0.382768667678008,1.00728261916094,9583
+"{Nivel_Educativo=Licenciatura,Sexo=Hombre,Edad=[26,34)} => {Sector=Privado}",0.0723590743817573,0.717869087434305,0.100797033398348,1.00571417643488,3005
+"{Sexo=Hombre,Edad=[26,34)} => {Sector=Privado}",0.109104481205904,0.717725328686837,0.152014255098847,1.00551277451795,4531
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Grupos_Quinquenales=25 a 29,Sector=Privado} => {Sexo=Mujer}",0.0703604709961713,0.601605929586164,0.116954417395073,1.00519383020655,2922
+"{Departamento=Guatemala,Sexo=Hombre} => {Sector=Privado}",0.121553613137807,0.715926818890937,0.169784969539358,1.00299311344067,5048
+"{Departamento=Guatemala} => {Sector=Privado}",0.308290592116352,0.713577081707725,0.432035445110646,0.999701198469794,12803
+"{Departamento=Guatemala,Sexo=Mujer,Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.0581521346528932,0.709876543209877,0.0819186592501625,0.994516849271766,2415
+"{Edad=[26,34)} => {Sector=Privado}",0.271039514556093,0.708102667337695,0.382768667678008,0.992031699621062,11256
+"{Departamento=Guatemala,Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.0974740542753257,0.70351060132082,0.138553781694719,0.985598345722509,4048
+"{Sexo=Hombre,Grupos_Quinquenales=30 a 34} => {Sector=Privado}",0.0511690625827735,0.701783355350066,0.0729129042355944,0.983178523237624,2125
+"{Sexo=Mujer,Edad=[26,34)} => {Sector=Privado}",0.161935033350189,0.701763539601377,0.230754412579162,0.98315076193724,6725
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Sexo=Mujer} => {Sector=Privado}",0.108743287822967,0.701024526544551,0.155120518192107,0.982115425660988,4516
+"{Departamento=Guatemala,Sexo=Mujer} => {Sector=Privado}",0.176936598521515,0.700877527661198,0.252450095114257,0.981909484405826,7348
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura} => {Sector=Privado}",0.187531604421007,0.700800863853145,0.267596137638758,0.981802080590941,7788
+"{Nivel_Educativo=Licenciatura,Edad=[26,34),Grupos_Quinquenales=30 a 34} => {Sector=Privado}",0.0593801921548797,0.700369213291678,0.0847841267547979,0.981197350429785,2466
+"{Nivel_Educativo=Licenciatura,Grupos_Quinquenales=30 a 34} => {Sector=Privado}",0.070191914084134,0.698538221902708,0.100483999133136,0.978632183564334,2915
+"{Sexo=Mujer} => {Sector=Privado}",0.414312889787859,0.692255079460873,0.598497435526981,0.969829679685949,17206
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Sexo=Hombre} => {Sector=Privado}",0.0743335982084808,0.688140882746322,0.108020901057093,0.964065807090106,3087
+"{Departamento=Guatemala,Edad=[34,124]} => {Sector=Privado}",0.105637024729707,0.687833176544371,0.153579426424908,0.96363471945185,4387
+"{Departamento=Guatemala,Edad=[26,34),Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.0749837462977678,0.686356623319374,0.109248958559079,0.961566110374466,3114
+"{Edad=[26,34),Grupos_Quinquenales=30 a 34} => {Sector=Privado}",0.100556237809723,0.68582690096896,0.146620433913651,0.960823984426001,4176
+"{Sexo=Hombre,Edad=[34,124]} => {Sector=Privado}",0.0888294926436948,0.684542586750789,0.129764742709914,0.959024696730206,3689
+"{Grupos_Quinquenales=30 a 34} => {Sector=Privado}",0.119771725781984,0.682960318550048,0.175371427195454,0.956807983978172,4974
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Grupos_Quinquenales=25 a 29} => {Sector=Privado}",0.067591321726986,0.678839177750907,0.0995689758963616,0.951034382917296,2807
+"{Edad=[34,124]} => {Sector=Privado}",0.233547641407209,0.675229741019215,0.345878783500686,0.945977664702863,9699
+"{Departamento=Guatemala,Sexo=Mujer,Edad=[26,34)} => {Sector=Privado}",0.0717089262924703,0.672690309464649,0.106600207084206,0.94241999331233,2978
+"{Departamento=Guatemala,Edad=[26,34)} => {Sector=Privado}",0.121457294902357,0.672174840085288,0.180693009704062,0.941697835370979,5044
+"{Sexo=Mujer,Edad=[26,34),Grupos_Quinquenales=30 a 34} => {Sector=Privado}",0.0580076572997183,0.671966527196653,0.0863252185219967,0.94140599493809,2409
+"{Sexo=Mujer,Grupos_Quinquenales=30 a 34} => {Sector=Privado}",0.0686026631992102,0.669565217391304,0.102458522959859,0.938041828190247,2849
+"{Departamento=Guatemala,Grupos_Quinquenales=30 a 34} => {Sector=Privado}",0.0555515422957451,0.654653802497162,0.0848563654313853,0.917151359980591,2307
+"{Departamento=Guatemala,Sexo=Mujer,Edad=[34,124]} => {Sector=Privado}",0.0539622914108214,0.64862518089725,0.083194875869874,0.90870543256357,2241
+"{Departamento=Guatemala,Nivel_Educativo=Licenciatura,Edad=[26,34)} => {Sector=Privado}",0.0725517108526572,0.635118043844857,0.114233427243613,0.889782317674765,3013
+"{Nivel_Educativo=Licenciatura,Edad=[34,124]} => {Sector=Privado}",0.117147053865973,0.630671506352087,0.185749717065183,0.883552845099883,4865
+"{Nivel_Educativo=Técnico,Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0645332177514508,0.617653837289698,0.104481205904308,0.865315460945379,2680
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26),Grupos_Quinquenales=20 a 24} => {Sector=Privado}",0.0645332177514508,0.617653837289698,0.104481205904308,0.865315460945379,2680
+"{Nivel_Educativo=Técnico,Edad=[-7.97e+03,26)} => {Sector=Privado}",0.0740205639432686,0.615046018407363,0.120349635194683,0.861661980853469,3074
+"{Sexo=Mujer,Edad=[34,124]} => {Sector=Privado}",0.114040790772713,0.614985066874432,0.185436682799971,0.861576589489197,4736
+"{Nivel_Educativo=Licenciatura,Sexo=Mujer,Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0869031279346962,0.606350806451613,0.143321534349491,0.849480236181528,3609
+"{Sexo=Hombre,Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.0982205206000626,0.603849000740192,0.162657420116063,0.845975277527222,4079
+"{Nivel_Educativo=Licenciatura,Pueblo_Pertenencia=Ladino} => {Sector=Privado}",0.142550988465891,0.601015228426396,0.237183654795444,0.842005243103593,5920
