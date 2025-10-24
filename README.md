@@ -67,9 +67,10 @@ install.packages(c("arules", "dplyr", "ggplot2", "tidyr", "factoextra", "cluster
 
 ## 🔍 Algoritmos incluidos
 
-### **Apriori (apriori_t2.R)**
+### **Apriori (apriori_t2.R)**  
 
 Implementa el **algoritmo Apriori**, utilizado para la **extracción de reglas de asociación** a partir de transacciones.  
+
 ---
 
 ### **FP-Growth (fpgrowth_t3.R)**
