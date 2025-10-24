@@ -1,0 +1,96 @@
+---
+title: "K Means - Violencia intrafamiliar"
+author: "Walter Oswaldo Mach Velásquez"
+date: "`r Sys.Date()`"
+output: pdf_document
+header-includes:
+  - \usepackage{booktabs}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Enlace al repositorio de código
+
+*https://github.com/wltomv/data-mining*
+
+## Carga de librerías
+
+```{r  echo=TRUE, results='hide',message=FALSE,warning=FALSE}
+library(readxl)
+library(dplyr)
+library(factoextra)
+library(arules)
+library(ggplot2)
+library(knitr)
+```
+
+## Carga de datos
+
+```{r}
+path <-"C:\\Users\\Oswaldo\\Downloads\\base-de-datos-violencia-intrafamiliar-ano-2024_v3.xlsx"
+data <- read_excel(path)
+```
+
+## Selección de variables relevantes para clustering
+
+```{r}
+data_km <- data %>%
+  select(
+    VIC_EDAD, AGR_EDAD,
+    VIC_SEXO, AGR_SEXO,
+    VIC_EST_CIV, AGR_EST_CIV,
+    VIC_TRABAJA, AGR_TRABAJA,
+    VIC_ESCOLARIDAD, AGR_ESCOLARIDAD,
+    HEC_TIPAGRE, HEC_AREA,
+    HEC_RECUR_DENUN
+  )
+```
+
+## Tratamiento de los datos
+
+```{r}
+data_km[data_km == 99] <- NA
+
+data_km <- na.omit(data_km)
+
+data_km[] <- lapply(data_km, function(x) as.numeric(as.factor(x)))
+```
+
+## Análisis de Clusters — Edad de la Víctima vs Edad del Agresor
+
+```{r}
+data_cluster1 <- data_km %>% select(VIC_EDAD, AGR_EDAD)
+data_cluster1_scaled <- scale(data_cluster1)
+kmeans_cluster1 <- kmeans(data_cluster1_scaled, centers = 3)
+```
+
+### Visualización del Cluster 1
+
+```{r}
+fviz_cluster(kmeans_cluster1,
+             data = data_cluster1,
+             geom = "point",
+             ellipse.type = "convex",
+             ggtheme = theme_minimal(),
+             main = "Cluster 1: Edad de la Víctima vs Edad del Agresor")
+```
+
+### Centroides
+
+```{r echo=TRUE, results='hide', message=FALSE, warning=FALSE}
+centroides_originales <- sweep(kmeans_cluster1$centers, 2, 
+                               attr(data_cluster1_scaled, "scaled:scale"),"*")
+
+
+centroides_originales <- sweep(centroides_originales,2, 
+                               attr(data_cluster1_scaled, "scaled:center"), "+")
+```
+
+```{r echo=FALSE, results='asis'}
+kable(centroides_originales, 
+      format = "latex", 
+      booktabs = TRUE,
+      caption = "Centroides de los clusters Edad Víctima vs Edad Agresor")
+```
