@@ -1,7 +1,7 @@
 # 📘 Algoritmos de Minería de Datos
 
 Repositorio dedicado al **aprendizaje práctico de algoritmos clásicos de minería de datos** utilizando el lenguaje **R**.  
-Cada script implementa un algoritmo diferente, acompañado de explicaciones, visualizaciones y ejemplos de aplicación.
+Cada script implementa un algoritmo diferente, acompañado de visualizaciones y ejemplos de aplicación.
 
 ---
 
